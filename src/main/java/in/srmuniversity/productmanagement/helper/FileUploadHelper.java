@@ -15,7 +15,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class FileUploadHelper {
 
     // static Path
-    public final String UPLOAD_DIR_MAC = "/Users/ketanaggarwal/Desktop/ARDBMS/internal/productmanagement/src/main/resources/static/images";
+    public final String UPLOAD_DIR_MAC = "/Users/bvans/Desktop/ARDBMS/internal/productmanagement/src/main/resources/static/images";
 
     // Dynamic Path
     public final String UPLOAD_DIR = new ClassPathResource("static/images/").getFile().getAbsolutePath();
